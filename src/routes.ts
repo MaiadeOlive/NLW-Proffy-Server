@@ -7,5 +7,4 @@ const classesControllers = new ClassesController();
 
 routes.post('/classes', classesControllers.create);
 
-
 export default routes;
